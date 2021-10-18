@@ -17,7 +17,7 @@ h2{
 main{
     align-self: center;    
     max-width: 1200px;
-    padding-top: 1px;
+    padding-top: 0.2em;
     padding-left: 0.7em;
     padding-right: 0.7em;
     padding-bottom: 1.4em;

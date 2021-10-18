@@ -1,0 +1,15 @@
+table,th, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+/* Especificidad =  001 */
+th{
+	background-color: #6a142b;
+	color: white;
+}
