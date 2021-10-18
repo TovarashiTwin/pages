@@ -53,6 +53,11 @@ nav a{
     padding-bottom: 0.7em;
 }
 /* Especificidad =  001 */
+video {
+    width: 100%;
+    height: auto;
+  }
+/* Especificidad =  001 */
 footer{
     margin-top: 2.1em;
     bottom: 0;
