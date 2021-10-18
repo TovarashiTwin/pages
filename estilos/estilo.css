@@ -1,4 +1,4 @@
-/* Dejamos esto vacio*/
+/* Especificidad =  001 */
 body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.8;
@@ -14,7 +14,7 @@ h1,h2 {
     text-transform: uppercase;
     text-align: left;     
 }
-
+/* Especificidad =  001 */
 main{
 	background: rgba(255,255,255,0.8);
 	padding-top: 8px;
@@ -23,12 +23,13 @@ main{
 	padding-right: 8px;
 	
 }
+/* Especificidad =  001 */
 footer{	
 	background-color:#555555;
 	color: #ffffff;
 	text-align: center; 
 }
-
+/* Especificidad =  011 */
 a:hover, a:active{
 	text-decoration: underline;
 }
