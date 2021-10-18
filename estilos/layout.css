@@ -39,23 +39,10 @@ table{
     margin-right: auto;
 }
 /* Especificidad =  001 */
-ul{
-    display: flex;
-    flex-direction: row;
-}
-/* Especificidad =  001 */
-li{
-    flex: 1 1 auto;
-    text-align: center;
-    align-self: center;
-    margin-right: 8.4em;
-}
-/* Especificidad =  002 */
-li img{
-    margin-top: 0.7em;
-    
-}
-
+ul {
+    list-style-type: circle;
+    margin: auto;
+  }
 /* Especificidad =  001 */
 nav{
     text-align: center;
