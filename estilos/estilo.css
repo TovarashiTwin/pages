@@ -8,13 +8,12 @@ body {
   }
 /* Especificidad =  001 */
 h1,h2 {
-    color: #981D3E;
+    color: #7e122f;
     text-transform: uppercase;
     text-align: center;     
 }
 /* Especificidad =  001 */
 main{
-	background: rgba(255,255,255,0.8);
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	padding-left: 0.5em;
