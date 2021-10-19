@@ -4,7 +4,6 @@ body {
     line-height: 1.8;
     color: #981D3E;
     background-color: #f6f6f6;
-	font-size: 15px;	
 	background-size: cover;
   }
 /* Especificidad =  001 */
@@ -16,10 +15,10 @@ h1,h2 {
 /* Especificidad =  001 */
 main{
 	background: rgba(255,255,255,0.8);
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	
 }
 /* Especificidad =  001 */
