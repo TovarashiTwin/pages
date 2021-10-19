@@ -1,80 +1,46 @@
-/* Especificidad =  002 */
+/* Especificidad =  001 */
 body{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2.80em;
+	display: grid;
+	grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+	grid-template-rows: 20% 1fr 15%;
+	grid-template-columns: 20% 1fr 15%;
+	grid-row-gap: 10px;
 }
 /* Especificidad =  001 */
-h1{
+footer {
+	grid-area: footer;
     align-self: center;
-    text-align: center;
 }
 /* Especificidad =  001 */
-h2{
-    text-align: left;
-    margin-left: 1.4em;
-}
-/* Especificidad =  001 */
-main{
-    align-self: center;    
-    max-width: 1200px;
-    padding-top: 0.2em;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    padding-bottom: 1.4em;
-    margin-top: 0.7em;
-}
-/* Especificidad =  001 */
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-}
-/* Especificidad =  001 */
-table{
-    max-width: 1200px;
-}
-/* Especificidad =  001 */
-ul {
-    list-style-type: circle;
+main {
+	grid-area: main;
+    align-self: center;
     margin: auto;
-  }
-/* Especificidad =  001 */
-nav{
-    text-align: center;
-    display: flex;
 }
-/* Especificidad =  002 */
-nav a{
-    flex: 1 1 auto;
-    height: 100%;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-}
-/* Especificidad =  001 */
-video {
-    width: 100%;
-    height: auto;
-  }
-/* Especificidad =  001 */
-footer{
-    margin-top: 2.1em;
-    bottom: 0;
-    position: relative;
-    width: 100%;
-    height: 9em;
-    display: flex;
-    flex-direction: row;
-}
-/* Especificidad =  002 */
-footer a{
+/* specificity = 001 */
+nav {
+	grid-area: nav;
     align-self: center;
-    margin-left: 3.4em;
 }
-/* Especificidad =  002 */
-footer p{
-    align-self: center;
-    margin-left: 1em;
-    margin-right: 20em;
+/* Especificidad =  001 */
+aside {
+  grid-area: aside;
+}
+/* Especificidad =  001 */
+header{
+    grid-area: header;
+	text-align: center;
+}
+
+/* Especificidad =  001 */
+header,
+footer,
+article,
+nav,
+aside {
+  margin: 10px;
 }

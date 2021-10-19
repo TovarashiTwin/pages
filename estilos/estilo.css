@@ -11,7 +11,7 @@ body {
 h1,h2 {
     color: #981D3E;
     text-transform: uppercase;
-    text-align: left;     
+    text-align: center;     
 }
 /* Especificidad =  001 */
 main{
