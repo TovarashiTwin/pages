@@ -3,7 +3,6 @@ body{
 	display: grid;
 	grid-template-areas:
     "header header header"
-    "nav nav nav"
     "main main main"
     "footer footer footer";
 	grid-template-rows: 20% 1fr 15%;
@@ -22,13 +21,8 @@ main {
     margin: auto;
 }
 /* specificity = 001 */
-nav {
-	grid-area: nav;
+nav {	
     align-self: center;
-}
-/* Especificidad =  001 */
-aside {
-  grid-area: aside;
 }
 /* Especificidad =  001 */
 header{
