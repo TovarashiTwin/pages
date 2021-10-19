@@ -32,6 +32,10 @@ a:hover, a:active{
 	text-decoration: underline;
 }
 /* Especificidad =  001 */
+ul { 
+    list-style-type: square;
+}
+/* Especificidad =  001 */
 video {
 	max-width: 100%;
     height: auto;
