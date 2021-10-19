@@ -33,8 +33,7 @@ header{
 /* Especificidad =  001 */
 header,
 footer,
-article,
-nav,
-aside {
-  margin: 10px;
+nav
+{
+  margin: 0.9em;
 }
